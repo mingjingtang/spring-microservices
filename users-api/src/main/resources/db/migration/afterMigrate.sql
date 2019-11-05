@@ -5,3 +5,9 @@ VALUES ('quinto', 'timothy', 'quinto'),
 ('onionfan', 'ser', 'davos'),
 ('1337codr', 'mad', 'hax'),
 ('badstash', 'charlie', 'chaplin');
+
+
+INSERT INTO songs(title, len)
+VALUES ('On God', 10),
+       ('White Mercedes', 20);
+
