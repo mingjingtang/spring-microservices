@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="users-api" />
+        <module name="songs-api" />
         <module name="api-gateway" />
         <module name="eureka-server" />
-        <module name="users-api" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="songs-api" options="-parameters" />
       <module name="users-api" options="-parameters" />
     </option>
   </component>
