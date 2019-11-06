@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="users-api" />
-        <module name="songs-api" />
         <module name="api-gateway" />
         <module name="eureka-server" />
+        <module name="songs-api" />
+        <module name="users-api" />
       </profile>
     </annotationProcessing>
   </component>
